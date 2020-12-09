@@ -1,0 +1,112 @@
+
+head{
+font-family: 'Merriweather Sans', sans-serif;
+}
+body {margin:0 auto;}
+
+
+.verkefni {display:flex;
+	flex-flow:row-reverse;
+	text-align:right;
+}
+.copy {
+}
+blockquote {
+	background-color: #b2b2b2;
+  background-color: rgba(0, 0, 0, .3);
+
+}
+main{
+	display:flex;
+	
+
+}
+.litur{background-color:#D8BFD8;
+height:30em;
+text-align:center;}
+
+.topbutt {
+	background-color:purple;
+	text-align:center;
+	text-decoration:none;
+	border-radius:50%;
+	color:#0064ce;
+	font-size:1.5em;
+	display:block;
+	position:fixed;
+	bottom:1em;
+	right:1em;
+	width:1em;
+	padding:0 .2em;
+}
+.container {
+		margin:0 auto;
+		padding:0;
+		text-align:center;
+		display: flex;
+		flex-flow: column;
+		background-color:#00F0FF;
+		
+		
+
+	}
+.container h1{
+	font-size:2em;
+}
+.container2 {
+	margin:0 auto;
+		padding:0;
+		text-align:center;
+		display: flex;
+		flex-flow: column;
+		background-color:#00F0FF;}
+.innermenu {
+		display:flex;
+		flex-flow:inline-column;
+		justify-content: space-around;
+		background-color:blue;
+
+	}
+	.innermenu a {
+		border-width: 0px 1px 0px 0px;
+		color:white;
+	}
+
+.index{background-color:#00F0FF;
+	display:flex;
+	flex-flow:inline-column;
+justify-content: space-around;}
+.topnav {
+	font-size:1.5em;
+	display:flex;
+	flex-flow:inline-column;
+	justify-content: space-around;
+}
+.inner{background-color:#00F0FF;
+	display:flex;
+justify-content: space-around;}
+.lækni{
+	display:flex;
+	background-color:#D8BFD8}
+.ósk {display:flex;
+	background-color:#D8BFD8
+}
+.adam{display:flex;
+	background-color:#D8BFD8
+
+
+}
+
+.aln{display:flex;
+	background-color:#D8BFD8
+
+}
+.jól{
+	display:flex;
+	background-color:#D8BFD8
+}
+.gef{display:flex;
+	background-color:#D8BFD8}
+.hjálp{
+		flex-flow:inline-column;
+}

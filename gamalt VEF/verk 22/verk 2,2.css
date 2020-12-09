@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+    width: 1250px;
+    border:3px;
+    padding-left:5em;
+    padding-right:5em;
+    padding-bottom:5em;
+    padding-top:1em;
+    border-style:dotted;
+    border-color:pink;
+}
+h3{
+	text-align:right;
+}
+h1 {
+    margin:1em;
+}
+ul {
+    display: block;
+}
+li {
+    border: 3px dashed green;
+    padding: 1em;
+    margin: 1em;
+}
+hr {
+    margin: 3em
+}
+p {
+    display: inline;
+    border: 3px dashed blue;
+    padding: 1em;
+    margin: 1em;
+    color: red;
+}
+.u1 {
+    display: inline-block;
+    border: 3px dashed red;
+    padding: 1em;
+    margin: 1em;
+}

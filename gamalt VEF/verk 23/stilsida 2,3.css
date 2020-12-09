@@ -1,0 +1,52 @@
+body {
+margin: 0 auto;
+    margin-top: 2em;
+    width: 912px;
+    padding: 2em;
+    padding-bottom: 40em;
+    border: 2px solid
+}
+header p{
+	text-align:right;
+	background-color:lightblue;
+
+}
+header h1 {
+	background-color:orange;
+}
+div{
+	float:right;
+}
+section{
+	border-style:solid;
+	border-color:pink;
+	padding:1em;
+
+}
+.box{
+	float:left;
+	width:45.8%;
+
+}
+.imgR {
+	float:right;
+	width:225px;
+	margin:5px;
+}
+.bigL {
+	float:left;
+	font-size:4em;
+	margin-left:15px;
+	margin-right:15px;
+	
+}
+.vinstri {
+	text-align:left;
+	
+
+
+}
+
+.athugid {
+	background-color:purple;
+}

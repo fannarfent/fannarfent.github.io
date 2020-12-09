@@ -1,0 +1,313 @@
+html {
+	background:darkgray;
+	min-width: 100%;
+	min-height:100%;
+}
+body {
+	min-width: 100%;
+	min-height:100%;
+}
+
+	
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+	grid-area:myndband;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.kort{
+
+
+}
+aside{
+	display:grid;
+	grid-area:aside;
+	
+}
+.asidep{
+	display:grid;
+	grid-area:aside;
+	padding-right:0.1em;
+	
+	
+	padding-left:0.1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	text-align:center;
+	font-family: 'Bebas Neue', cursive;
+	font-size:2em;
+
+
+}
+
+footer{
+	display:grid;
+	grid-area:footer;
+	
+	grid-template-columns:1fr 1fr 1fr ;
+	margin:auto;
+}
+.texti {
+	text-align:center;
+	grid-area:texti;
+	font-family: 'Bebas Neue', cursive;
+	
+}
+.svg{
+	display:grid;
+	grid-area:headmid;
+	height:400PX;
+	width:600PX;
+	margin:auto;
+	
+	
+    
+}
+.column{
+
+	float: left;
+	width: 20% 60% 20%;
+	padding:5px;
+}
+.wrapper{
+	display:grid;
+	grid-template-areas:
+	"head headmid headmid headmid head"
+	"nav nav nav nav nav"
+	"texti texti texti texti texti"
+	"megin megin megin megin myndband"
+	"mynd mynd mynd mynd mynd"
+	"aside aside aside aside aside"
+	"footer footer footer footer footer"
+}
+.midja{
+	grid-area:megin;
+	border:2px solid white;
+	padding-right:0.1em;
+	margin-left:5.3em;
+	margin-right:5.3em;
+	padding-left:0.1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	text-align:center;
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+
+	
+.innerlinks{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-area:nav;
+	text-align:center;
+	padding:2em;
+	font-family: 'Bebas Neue', cursive;
+	font-size:1.5em;
+	background:white;
+	
+}
+
+main{
+	grid-area:megin;
+}
+ h3{
+	grid-area:megin;
+	font-family: 'Anton', sans-serif;
+	text-align:center;
+	font-size:4em;
+
+}
+audio{
+	margin:auto;
+
+}
+.meginp{
+	grid-area:megin;
+	margin-left:5em;
+	margin-right:5em;
+
+}
+.topbuttlok {
+	background-color:lightblue;
+	text-align:center;
+	text-decoration:none;
+	border-radius:50%;
+	color:blue;
+	font-size:1.5em;
+	display:block;
+	position:fixed;
+	bottom:1em;
+	right:1em;
+	width:1em;
+	padding:0 .2em;
+}
+.mynd{
+	display:inline-grid;
+	grid-area:mynd;
+	max-width:100%;
+	height:auto;
+}
+
+@media screen and(min-width:0em){
+    .svg {display:grid;
+	grid-area:headmid;
+	margin:auto;
+	height:300PX;
+	width:700PX;
+	
+}
+
+
+}
+.wrapper{
+		display:grid;
+	grid-template-areas:
+	"headmid"
+	"nav"
+	"texti"
+	"myndband"
+	"megin"
+	"mynd"
+	"aside"
+	"footer"
+}
+.texti {
+	
+	font-family: 'Bebas Neue', cursive;
+	font-size:3em;
+}
+.innerlinks{
+	
+	text-align:center;
+	padding:1em;
+	padding-top:1em;
+	padding-bottom:1em;
+	font-size:2.2em;
+
+}
+.meginp{
+	grid-area:megin;
+	margin-left:2em;
+	
+	}
+.mynd{
+	width:30%;
+}
+
+}
+
+
+@media screen and (min-width:37.5em ){ 
+	.wrapper{
+		display:grid;
+	grid-template-areas:
+	"head headmid head"
+	"nav nav nav"
+	"texti texti texti"
+	"megin megin megin"
+	"megintvö megintvö megintvö"
+	"mynd mynd mynd"
+	"aside aside myndband"
+	"footer footer footer"
+	}
+
+	.svg {display:grid;
+	grid-area:headmid;
+	height:200PX;
+	width:400PX;
+	margin:auto;
+	
+    
+
+	
+}
+.texti {
+	
+	font-family: 'Bebas Neue', cursive;
+	font-size:3em;
+}
+.meginp{
+
+
+}
+.mynd{
+	width:30%;
+}
+}
+
+
+@media screen and (min-width: 48em){
+	.svg {
+		display:grid;
+	grid-area:headmid;
+	height:300PX;
+	width:600PX;
+    margin:auto;
+}
+.meginp{
+	grid-area:megin;
+	color:orange;
+	margin-left:5em;
+	
+	width:auto;
+	font-size:1.8em;
+	
+
+
+	
+}
+.midja{
+	font-size:2em;
+}
+
+.texti {
+	font-family: 'Bebas Neue', cursive;
+	font-size:4em;
+	padding-bottom:2em;
+	padding-top:2em;
+	color:blue;
+}
+
+
+.wrapper{
+	display:grid;
+	grid-template-areas:
+	"head headmid headmid headmid head"
+	"nav nav nav nav nav"
+	"texti texti texti texti texti"
+	"megin megin megin  megin myndband"
+	"megin megin megin megin myndband"
+	"aside aside aside aside aside"
+	"mynd mynd mynd mynd mynd"
+	"footer footer footer footer footer"
+
+
+
+
+}
+.mynd{
+	width:32%;
+}
+.asidep{
+	display:grid;
+	grid-area:aside;
+	
+	
+	text-align:center;
+	font-family: 'Bebas Neue', cursive;
+
+
+}
+footer{
+	text-align:center;
+}
+}

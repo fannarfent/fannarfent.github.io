@@ -1,0 +1,137 @@
+html{ margin:0 auto;}
+body{
+	margin:0 auto;
+	
+	width: 80%; 
+	height:fill;
+	background-color:#006400	;
+
+	
+}
+
+.meginbody{border: 1px solid #28df28;}
+.wrapper{
+	display:grid;
+	grid-template-areas:
+	"header header header header header"
+	"nav nav nav nav nav"
+	"aside main main main article"
+	"footer footer footer footer footer";
+	
+
+}
+.meginsíðaheader{grid-area:header;
+	font-family: 'Stalinist One', cursive;
+	padding-bottom:30px;
+	font-size:60px;
+	text-align:center;
+	background:#28df28;
+
+}
+.meginsíðanav{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-area:nav;
+	border:1px solid #28df28;
+	text-align:center;
+	padding:2em;
+	background:black;
+
+}
+.meginsíðamain{
+	grid-area:main;
+	border:1px solid #28df28;
+	padding:4px;
+	background:#E8BF28;
+	font-family: 'Cinzel Decorative', cursive;
+
+
+}
+.meginsíðaaside{grid-area:aside; border:1px solid #28df28; background:#E8BF28; font-family: 'Cinzel Decorative', cursive; }
+.meginsíðaarticle{grid-area:article; border:1px solid #28df28; background:#E8BF28; font-family: 'Cinzel Decorative', cursive; }
+.meginsíðafooter{grid-area:footer; border:1px solid #28df28; padding:2em;background:black; display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr; text-align:center; margin-top:auto; }
+strong{
+	font-size:20px;
+	font-family: 'Stalinist One', cursive;
+	
+}
+.midja{
+	border:2px solid #28df28;
+	padding-right:0.1em;
+	padding-left:0.1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	background-color:black;
+	color:#28df28;
+}
+.forsíða{
+	 background: #004ff9;
+	background-size:cover;
+  background: -webkit-linear-gradient(to right, #004ff9, #fff94c); 
+  background: linear-gradient(to right, #004ff9, #fff94c);
+}
+.wrapper2{ 
+	display:grid;
+	grid-template-areas:
+	"header header header header header"
+	"nav nav nav nav nav"
+	"aside aside main main main"
+	"article article main main main"
+	"footer footer footer footer footer";
+
+}
+.forsíðah1{grid-area:header;
+
+	font-family: 'Stalinist One', cursive;
+	margin-top:15em;
+	text-align:center;
+	height:100%;
+	
+}
+.forsíðah2{grid-area:nav;
+	margin-bottom:15em;
+
+	font-family: 'Stalinist One', cursive;
+	font-size:1em;
+	text-align:center;
+	
+
+
+}
+.forsíðah3{font-size:24px;}
+
+.formain{margin-top:10em;
+	grid-area:main;
+	background-color:gray;
+	border:5px #fff94c solid;
+
+}
+.foraside{grid-area:aside;
+	margin-top:10em;
+	background-color:gray;
+	border:5px #004ff9 solid;
+
+
+
+}
+.forarticle{grid-area:article;
+	background-color:gray;
+	border:5px #004ff9 solid;
+
+}
+
+
+.midja2 {border:2px solid #fff94c;
+	padding-right:0.2em;
+	padding-left:0.1em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	background-color:black;
+	color:#fff94c;
+	font-family: 'Cinzel Decorative', cursive;}
+
+.forsidafooter{grid-area:footer; padding:2em; display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr; text-align:center; margin-top:auto;
+
+}
