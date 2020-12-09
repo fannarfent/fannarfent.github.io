@@ -1,0 +1,24 @@
+h1 {
+	border-color:green;
+	border-width:5px;
+	border-style:solid;
+
+ }
+
+div{
+	border-color:red;
+	border-width:6px;
+	border-style:solid;
+	margin:20px;
+	padding:40px;
+	
+}
+.fannar {
+	color:blue;
+	border-color:blue;
+	border-width:6px;
+	border-style:dashed;
+	margin:20px;
+	padding:25px;
+
+}
